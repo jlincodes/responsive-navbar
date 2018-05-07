@@ -42,4 +42,7 @@ body {
     position: absolute;
     cursor: pointer;
   }
+  .Navbar_ToggleShow {
+    display: flex;
+  }
 }
