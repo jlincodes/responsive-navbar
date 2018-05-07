@@ -21,3 +21,24 @@ body {
 .Navbar_Link {
   padding-right: 10px;
 }
+
+/* @media screen and (max-width: 768px) {
+  .Navbar {
+    justify-content: flex-start;
+  }
+  .Navbar_Items {
+    flex-direction: column;
+  }
+} */
+
+@media only screen and (max-width: 600px) {
+  .Navbar, .Navbar_Items {
+    flex-direction: column;
+  }
+  .Navbar {
+    justify-content: flex-start;
+  }
+  .Navbar_Items {
+    display: none;
+  }
+}
