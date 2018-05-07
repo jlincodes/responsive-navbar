@@ -31,7 +31,7 @@ body {
     flex-direction: column;
   }
   .Navbar {
-    justify-content: flex-start;
+    /* justify-content: flex-start; */
   }
   .Navbar_Items {
     display: none;
@@ -44,5 +44,8 @@ body {
   }
   .Navbar_ToggleShow {
     display: flex;
+    align-items: flex-end;
+  }
+  .Navbar_Items {
   }
 }
