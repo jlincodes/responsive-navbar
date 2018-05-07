@@ -22,14 +22,9 @@ body {
   padding-right: 10px;
 }
 
-/* @media screen and (max-width: 768px) {
-  .Navbar {
-    justify-content: flex-start;
-  }
-  .Navbar_Items {
-    flex-direction: column;
-  }
-} */
+.Navbar_Link-toggle {
+  display: none;
+}
 
 @media only screen and (max-width: 600px) {
   .Navbar, .Navbar_Items {
@@ -40,5 +35,11 @@ body {
   }
   .Navbar_Items {
     display: none;
+  }
+  .Navbar_Link-toggle {
+    display: initial;
+    align-self: flex-end;
+    position: absolute;
+    cursor: pointer;
   }
 }
