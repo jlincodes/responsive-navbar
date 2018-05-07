@@ -16,3 +16,7 @@ body {
 .Navbar_Items {
   display: flex;
 }
+
+.Navbar_Link {
+  padding-right: 10px;
+}
