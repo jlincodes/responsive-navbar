@@ -7,4 +7,8 @@ body {
 
 .Navbar {
   display: flex;
+  background: linear-gradient(to right, lightblue, lavender);
+  padding: 16px;
+  color: white;
+  font-weight: bold;
 }
