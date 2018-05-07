@@ -7,6 +7,7 @@ body {
 
 .Navbar {
   display: flex;
+  justify-content: space-between;
   background: linear-gradient(to right, lightblue, lavender);
   padding: 16px;
   color: white;
